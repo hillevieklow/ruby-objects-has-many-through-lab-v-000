@@ -6,4 +6,5 @@ class Appointment
   def initialize(date)
     @date = date
     @@all << date
+  end
 end
